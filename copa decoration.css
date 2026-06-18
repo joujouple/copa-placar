@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+
+    /* Fundo estilo campo de futebol */
+    background: linear-gradient(
+        180deg,
+        #1faa59 0%,
+        #138a3d 50%,
+        #0b6b2c 100%
+    );
+
+    min-height: 100vh;
+}
+
+/* Título principal */
+h1 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+/* Texto de boas-vindas */
+p {
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* Card dos jogos */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+}
+
+/* Botões */
+.btn, button {
+    background: #ffd700;
+    color: #0b6b2c;
+    border: none;
+    padding: 8px 18px;
+    margin: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover, button:hover {
+    transform: scale(1.05);
+    background: white;
+}
+
+/* Placar */
+.placar {
+    margin-top: 800px;
+    padding: 30px;
+}
+
+.score {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* SEU NOME (h6) */
+h6 {
+    margin-top: 60px;   /* fica abaixo do placar */
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
