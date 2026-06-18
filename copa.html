@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa Mundial 2026</title>
+    <link rel="stylesheet" href="copa decoration.css">
+</head>
+<body>
+
+    <h1>⚽ Copa Mundial 2026</h1>
+    <p>Bem-vindo ao portal oficial do torneio</p>
+
+    <div class="card">
+        <h2>Próximos Jogos</h2>
+        <p>Acompanhe os confrontos e resultados em tempo real.</p>
+
+        <a href="#placar" class="btn">Ver Tabela</a>
+    </div>
+
+    <div id="placar" class="placar">
+        <h2>Brasil x Argentina</h2>
+
+        <div class="score">
+            <span id="golsBrasil">0</span>
+            <span>:</span>
+            <span id="golsArgentina">0</span>
+        </div>
+
+        <br>
+
+        <button onclick="golBrasil()">Gol Brasil</button>
+        <button onclick="golArgentina()">Gol Argentina</button>
+        <button onclick="resetar()">Reiniciar</button>
+    </div>
+
+    <script src="copa.js"></script>
+<h6>Produzido por Jonathan</h6>
+</body>
+</html>
